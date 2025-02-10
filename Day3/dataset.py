@@ -38,7 +38,7 @@ class dataset_class:
                             else:
                                 self.no_of_elements_for_train += [1]
 
-                            if i is 0:
+                            if i == 0:
                                 self.target_name_as_array += [name]
                                 self.target_name_as_set[per_no] = name
 
